@@ -1,0 +1,7 @@
+---
+applications:
+- name: rgo
+  memory: 512M
+  instances: 1
+  host: rgo
+  path: .

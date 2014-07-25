@@ -1,0 +1,157 @@
+body {
+    font-family: arial, "lucida grande", sans-serif
+}
+
+h1 {
+    text-align: center;
+}
+
+.page-title {
+    font-size: 25px;
+}
+
+.triangle {
+    margin-top: 20px;
+    border: 1 solid;
+    width: 1000px;
+    margin: 0px auto;
+}
+.stack {
+    width: 0px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+}
+
+.stack.unit {
+    background-color: deepskyblue;
+}
+
+.stack.integration {
+    background-color: peachpuff;
+}
+
+.stack.system {
+    background-color: limegreen;
+}
+
+.stack.functional {
+    background-color: yellow;
+}
+
+.generate {
+    height: 50px;
+}
+
+.label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.labels {
+    padding: 5px;
+}
+
+.labels.unit {
+    background-color: deepskyblue;
+}
+
+.labels.integration {
+    background-color: peachpuff;
+}
+
+.labels.functional {
+    background-color: yellow;
+}
+
+.labels.system {
+    background-color: limegreen;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+#menu {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: lightsteelblue;
+}
+
+.nav-list {
+    padding: 10px;
+}
+
+.sub-nav {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color: lavender;
+    padding: 5px;
+}
+
+.radiator {
+    background-color: black;
+    position: relative;
+    float: left;
+}
+
+.radiator-element {
+    width: 900px;
+    padding: 10px;
+    position: relative;
+    float: left;
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+.radiator-element.failure {
+    color: red;
+}
+
+.radiator-element.success {
+    color: #008b00;
+}
+
+.timeline {
+    padding-bottom: 50px;
+    border-bottom: 1px dashed black;
+    color: #006702;
+    height: 300px;
+}
+
+.project-name {
+    font-size: 25pt;
+    position: relative;
+    align: right;
+}
+
+.info {
+    position: relative;
+    align: right;
+}
+.committer {
+    position: relative;
+    align: right;
+    font-size: 20pt;
+    color: #ff4648;
+}
+
+.version {
+    color: lightseagreen;
+    font-size: 20pt;
+}
