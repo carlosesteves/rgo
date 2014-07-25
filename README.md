@@ -19,4 +19,7 @@ Run the app
 
 ## Deployment
 
-    The app has the basic configuration for deployment to Cloudfoundry (check manifest.yml)
+The app has the basic configuration for deployment to Cloudfoundry (check example manifest.yml)
+
+Example:
+    $ cf deploy
