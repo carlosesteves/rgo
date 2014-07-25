@@ -22,4 +22,5 @@ Run the app
 The app has the basic configuration for deployment to Cloudfoundry (check example manifest.yml)
 
 Example:
+
     $ cf deploy
