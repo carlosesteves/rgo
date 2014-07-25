@@ -1,6 +1,5 @@
-url: 'http://oscar-prod-go-01.springer-sbm.com/go/cctray.xml'
-project_name: 'Oscar'
+url: 'http://my-dummy-go-server/go/cctray.xml'
+project_name: 'Dummy project'
 pipelines:
-  - name: 'jade :: build'
-  - name: 'jade :: deploy'
-
+  - name: 'dummy :: build'
+  - name: 'still-dummy :: deploy'
