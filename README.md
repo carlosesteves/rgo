@@ -9,11 +9,11 @@ Build radiator for Thoughtworks Go written in ruby.
 
 Example:
 
-   url: 'http://my-dummy-server.com/go/cctray.xml'
-   project_name: 'Dummy project'
-   pipelines:
-     - name: 'dummy :: build'
-     - name: 'still-dummy :: deploy'
+    url: 'http://my-dummy-server.com/go/cctray.xml'
+    project_name: 'Dummy project'
+    pipelines:
+        - name: 'dummy :: build'
+        - name: 'still-dummy :: deploy'
 
 ## Usage
 
