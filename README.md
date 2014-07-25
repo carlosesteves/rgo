@@ -33,3 +33,8 @@ Example:
 
     $ cf login -a http://my-dummy-cf-installation -u dummy -p dummy-password -s dummy-space
     $ cf deploy
+
+
+## License
+
+This program is distributed under the terms of the GNU General Public License (or the Lesser GPL).
